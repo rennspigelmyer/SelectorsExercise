@@ -1,0 +1,57 @@
+body {
+    background: #CED4D8;
+}
+
+h1 {
+color: #AC6AC7;
+}
+
+h2 {
+ color: rgb(255,165,0)
+}
+
+li {
+    color: blue;
+}
+
+p {
+    background-color: gold;
+}
+
+input {
+    border: 5px dotted pink
+}
+
+.first {
+    background-color: #fff;
+}
+
+#important {
+    border: 3px dashed #0000FF
+}
+
+
+div > p {
+    font-size: 30px;
+}
+
+
+input[type="email"]  {
+    background-color: #808080;
+    }
+
+
+/* Why was this 7 & not 3? Don't understand why 3 changed the first Div */
+div:nth-child(7) > p {
+background-color:hotpink
+}
+
+/*The numbers represent the number of div/p down */
+div:nth-child(7) > p:nth-child(3) {
+    border: 7px solid rgb(255,255,255)
+}
+
+div:nth-child(7) {
+     color:seashell; 
+     font-size: 25px;
+}
